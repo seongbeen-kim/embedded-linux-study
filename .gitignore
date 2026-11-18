@@ -48,8 +48,24 @@
 .tmp_versions/
 modules.order
 Module.symvers
+
 Mkfile.old
 dkms.conf
 
 # debug information files
 *.dwo
+
+# Build directories
+build/
+bin/
+obj/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
